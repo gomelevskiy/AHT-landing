@@ -1,8 +1,15 @@
 # AHT-landing
 Landing Altera invest company
 
-Initialization
------------------------------------
+### Initialization
 
-$ npm i
-$ gulp
+```php
+    $ npm i
+    $ gulp
+```
+
+    app /fonts
+    app /images
+    app /js
+    app /style
+    app /index.html
