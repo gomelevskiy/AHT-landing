@@ -1,0 +1,9 @@
+//= parts/jquery.min.js
+//= parts/bootstrap.min.js
+//= parts/owl.carousel.min.js
+//= parts/fotorama.js
+//= parts/jquery.fullpage.min.js
+//= parts/jquery.maskedinput.min.js
+//= parts/common.js
+//= parts/wow.js
+//= parts/script.js
