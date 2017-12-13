@@ -100,6 +100,16 @@ $(document).ready(function() {
         $("body .section5 .relative .slide-text").text(slideText);
         $("body .section5 .relative .slide-text-small").text(slideTextSmall);
 
-    })
+    });
+
+    // Input as material design
+    $('.section15-box__input').blur(function(){
+        if($(this).val().length !== 0) {
+            $(this).addClass('filled');
+        }
+        else {
+            $(this).removeClass('filled');
+        }
+    });
 
 });

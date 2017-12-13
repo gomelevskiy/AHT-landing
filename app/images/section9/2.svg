@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="33px" viewBox="0 0 47 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="94.9305122%" y1="-16.5997327%" x2="4.45157258%" y2="107.650861%" id="linearGradient-1">
+            <stop stop-color="#1DC6DA" offset="0%"></stop>
+            <stop stop-color="#05C0F3" offset="30.6188491%"></stop>
+            <stop stop-color="#05BFF3" offset="63.1949868%"></stop>
+            <stop stop-color="#05DEF9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AHT-9" transform="translate(-465.000000, -379.000000)" fill-rule="nonzero" fill="url(#linearGradient-1)">
+            <g id="Group-3" transform="translate(465.329987, 379.500000)">
+                <path d="M4.25,24.25 L4.25,5 C4.25,2.37678644 6.37678644,0.25 9,0.25 L37,0.25 C39.6232136,0.25 41.75,2.37678644 41.75,5 L41.75,24.25 L45,24.25 C45.4142136,24.25 45.75,24.5857864 45.75,25 L45.75,27 C45.75,29.6232136 43.6232136,31.75 41,31.75 L5,31.75 C2.37678644,31.75 0.25,29.6232136 0.25,27 L0.25,25 C0.25,24.5857864 0.585786438,24.25 1,24.25 L4.25,24.25 Z M40.25,24.25 L40.25,5 C40.25,3.20521356 38.7947864,1.75 37,1.75 L9,1.75 C7.20521356,1.75 5.75,3.20521356 5.75,5 L5.75,24.25 L40.25,24.25 Z M44.25,25.75 L1.75,25.75 L1.75,27 C1.75,28.7947864 3.20521356,30.25 5,30.25 L41,30.25 C42.7947864,30.25 44.25,28.7947864 44.25,27 L44.25,25.75 Z M21,7.75 C20.5857864,7.75 20.25,7.41421356 20.25,7 C20.25,6.58578644 20.5857864,6.25 21,6.25 L25,6.25 C25.4142136,6.25 25.75,6.58578644 25.75,7 C25.75,7.41421356 25.4142136,7.75 25,7.75 L21,7.75 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
