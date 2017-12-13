@@ -4,8 +4,8 @@ Landing Altera invest company
 ### Initialization
 
 ```php
-    $ npm i
-    $ gulp
+$ npm i
+$ gulp
 ```
 
     app /fonts
