@@ -6,6 +6,8 @@
 @import parts/fonts
 
 $transition: all 0.3s ease
+$transitionHight: all 0.5s ease
+$transitionEasy: all 0.1s ease
 
 /* Main style */
 body
@@ -39,6 +41,7 @@ body
     color: #fff
     font-size: 14px
     font-family: "ProximaNova"
+    -webkit-font-smoothing: antialiased
 
   .section
     background-repeat: no-repeat
@@ -256,7 +259,7 @@ body
     position: fixed
     top: 45px
     left: 0
-    z-index: 50
+    z-index: 300
     overflow: hidden
 
     .logo
@@ -267,11 +270,21 @@ body
       position: relative
       padding-right: 80px
 
-      a
+      span
+        color: #fff
+        cursor: pointer
+        font-size: 14px
+        font-family: inherit
+        text-decoration: none
+        line-height: normal
+        transition: $transition
+
+      a, span
         text-transform: uppercase
         padding-bottom: 4px
         border-bottom: 2px solid #fff
         display: inline-block
+        color: #fff
 
         &:first-child
           margin-right: 40px
@@ -297,6 +310,7 @@ body
     color: #fff
     font-family: "ProximaNova"
     font-size: 14px
+    z-index: 100
 
     span
       margin-right: 61px
@@ -927,7 +941,6 @@ body
             right: -48px
             top: 38px
 
-  .section15
     .form
       .section15-box
         position: relative
@@ -998,3 +1011,231 @@ body
 
           &:after
             right: 50%
+
+
+.modal-feedback
+  line-height: 100vh
+  height: 100vh
+  width: 50%
+  text-align: center
+  position: fixed
+  top: 0
+  background-color: #0e1428
+  z-index: 800
+  visibility: hidden
+  right: -100%
+  transition: $transitionHight
+
+  &.show
+    right: 0
+    visibility: visible
+    opacity: 1
+
+  .modal-form
+    line-height: normal
+    display: inline-block
+    margin: 0px auto
+    position: relative
+    vertical-align: middle
+
+  .close-feedback
+    width: 13px
+    height: 13px
+    position: absolute
+    top: -56px
+    right: -13px
+    color: #fff
+    font-size: 30px
+    cursor: pointer
+
+    &:before
+      content: "\2715"
+
+  .h1
+    margin-bottom: 49px
+
+  .form
+    padding: 52px 40px 74px
+    border: 1px solid rgba(169,169,169, 0.3)
+    border-top: none
+    position: relative
+    width: 402px
+    box-sizing: border-box
+    text-align: center
+
+    .btn
+      position: absolute
+      bottom: -29px
+      left: 0
+      right: 0
+      width: 220px
+      box-sizing: border-box
+      margin: 0 auto
+
+    .form-h2
+      font-family: "ProximaNova"
+      font-size: 20px
+      color: #fff
+      padding: 27px 17px
+      position: absolute
+      top: -38px
+      left: 0
+      right: 0
+      margin: 0
+      overflow: hidden
+
+      &:before
+        content: ''
+        width: 100px
+        height: 1px
+        background-color: rgba(169,169,169, 0.3)
+        position: absolute
+        left: -48px
+        top: 38px
+
+      &:after
+        content: ''
+        width: 100px
+        height: 1px
+        background-color: rgba(169,169,169, 0.3)
+        position: absolute
+        right: -48px
+        top: 38px
+
+    .section15-box
+      position: relative
+      margin-bottom: 35px
+      display: block
+      width: 100%
+
+      &.last
+        margin-bottom: 0
+
+      &__input
+        width: 100%
+        color: #fff
+        font-size: 12px
+        text-transform: uppercase
+        border-top: none
+        border-left: none
+        border-right: none
+        box-shadow: none
+        padding: 0 0 10px 0
+        outline: none
+        font-family: "ProximaNova"
+        background: transparent
+        transition: all 0.1s ease-in-out
+
+        &.filled
+          border-bottom: 1px solid #fff
+
+        &:focus ~ label, &.filled ~ label
+          bottom: 30px
+          color: #fff
+          font-size: 12px
+
+        &:focus ~ .section15-box__bar:before, &:focus ~ .section15-box__bar:after
+          width: 50%
+
+        &:valid
+          border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+
+        &:valid ~ .section15-box__bar:before, &:valid ~ .section15-box__bar:after
+          background: #fff
+
+      &__label
+        bottom: 10px
+        left: 0
+        position: absolute
+        pointer-events: none
+        font-size: 14px
+        font-family: "ProximaNova"
+        color: #fff
+        transition: 0.1s ease-in-out
+
+      &__bar
+        bottom: 0px
+        width: 100%
+        position: absolute
+
+        &:before, &:after
+          content: ""
+          width: 0
+          height: 1px
+          position: absolute
+          background: #fff
+          transition: all 0.2s ease-in-out
+
+        &:before
+          left: 50%
+
+        &:after
+          right: 50%
+
+.modal-menu
+  height: 100vh
+  width: 100%
+  position: fixed
+  top: 0
+  background-color: #0e1428
+  background-image: url("../images/menu-pic.png")
+  background-repeat: no-repeat
+  background-position: right -37% center
+  background-size: 50%
+  z-index: 200
+  visibility: hidden
+  opacity: 0
+  transition: $transitionEasy
+  overflow: hidden
+
+  &.show
+    visibility: visible
+    opacity: 1
+
+  .modal-menu-col
+    width: 33.333%
+    float: left
+    height: 100vh
+    box-sizing: border-box
+    padding-left: 30px
+    border-left: 1px solid rgba(255, 255, 255, 0.1)
+    line-height: 100vh
+
+    &:first-child
+      border-left: none
+
+    ul
+      margin: 0
+      padding: 0
+      line-height: normal
+      display: inline-block
+      vertical-align: middle
+
+      li
+        list-style: none
+        margin-bottom: 25px
+        text-align: left
+
+        span
+          display: inline-block
+          vertical-align: middle
+          color: #fff
+          font-size: 14px
+          font-family: "ProximaNova"
+          position: relative
+          top: -2px
+          margin-right: 13px
+
+        a
+          font-family: "ProximaNovaBold"
+          color: #fff
+          font-size: 22px
+          display: inline-block
+          vertical-align: middle
+          transition: $transition
+
+          &:hover
+            opacity: 0.1
+
+        &:last-child
+          margin-bottom: 0

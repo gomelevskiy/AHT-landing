@@ -3,14 +3,15 @@ $(document).ready(function() {
   $("input[type='tel']").mask("+7 (999) 999-99-99");
 
     // Init fullpage script
+
     $('#fullpage-pol').fullpage({
-        //Navigation
-        menu: '#menu',
+        // Navigation
+        menu: '#modalMenu',
         lockAnchors: false,
-        anchors:['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10', 'section11', 'section12', 'section13', 'section14', 'section15'],
+        anchors:['block1', 'block2', 'block3', 'block4', 'block5', 'block6', 'block7', 'block8', 'block9', 'block10', 'block11', 'block12', 'block13', 'block14', 'block15'],
         navigation: false,
-        navigationPosition: 'right',
-        navigationTooltips: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10', 'section11', 'section12', 'section13', 'section14', 'section15'],
+        navigationPosition: 'left',
+        // navigationTooltips: ['block1', 'block2', 'block3', 'block4', 'block5', 'block6', 'block7', 'block8', 'block9', 'block10', 'block11', 'block12', 'block13', 'block14', 'block15'],
         showActiveTooltip: false,
         slidesNavigation: false,
         slidesNavPosition: 'bottom',
@@ -35,20 +36,27 @@ $(document).ready(function() {
         offsetSections: false,
         resetSliders: false,
         fadingEffect: false,
-        // normalScrollElements: '#element1, .element2',
+        // normalScrollElements: '#section1, .section2',
         scrollOverflow: false,
         scrollOverflowReset: false,
         scrollOverflowOptions: null,
-        touchSensitivity: 15,
-        normalScrollElementTouchThreshold: 5,
+        touchSensitivity: 0,
+        normalScrollElementTouchThreshold: 0,
         bigSectionsDestination: null
     });
 
     (function () {
         $('.hamburger-menu').on('click', function() {
             $('.bar').toggleClass('animate');
-        })
+            $('.modal-menu').toggleClass('show');
+        });
     })();
+
+    $(function () {
+        $('.scrollto').click(function () {
+            $('.hamburger-menu').trigger("click");
+        });
+    });
 
     // Carousel flags
     $(".carousel-flag").owlCarousel({
@@ -110,6 +118,15 @@ $(document).ready(function() {
         else {
             $(this).removeClass('filled');
         }
+    });
+
+    // Show modal
+    $(".feedback-on").click(function() {
+       $(".modal-feedback").addClass("show");
+    });
+
+    $(".close-feedback").click(function() {
+        $(".modal-feedback").removeClass("show");
     });
 
 });
