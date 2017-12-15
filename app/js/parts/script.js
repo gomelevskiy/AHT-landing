@@ -1,3 +1,17 @@
+// Header on mobile device
+var headerNav = $(".header");
+var mobileBtn = $(".mobile-button");
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 70) {
+        headerNav.addClass("fixed-bar");
+        mobileBtn.addClass("fixed-bar");
+    }
+    else {
+        headerNav.removeClass("fixed-bar");
+        mobileBtn.removeClass("fixed-bar");
+    }
+});
+
 $(document).ready(function() {
 
   $("input[type='tel']").mask("+7 (999) 999-99-99");
@@ -11,7 +25,6 @@ $(document).ready(function() {
         anchors:['block1', 'block2', 'block3', 'block4', 'block5', 'block6', 'block7', 'block8', 'block9', 'block10', 'block11', 'block12', 'block13', 'block14', 'block15'],
         navigation: false,
         navigationPosition: 'left',
-        // navigationTooltips: ['block1', 'block2', 'block3', 'block4', 'block5', 'block6', 'block7', 'block8', 'block9', 'block10', 'block11', 'block12', 'block13', 'block14', 'block15'],
         showActiveTooltip: false,
         slidesNavigation: false,
         slidesNavPosition: 'bottom',
@@ -36,13 +49,13 @@ $(document).ready(function() {
         offsetSections: false,
         resetSliders: false,
         fadingEffect: false,
-        // normalScrollElements: '#section1, .section2',
         scrollOverflow: false,
         scrollOverflowReset: false,
         scrollOverflowOptions: null,
         touchSensitivity: 0,
         normalScrollElementTouchThreshold: 0,
-        bigSectionsDestination: null
+        bigSectionsDestination: null,
+        responsiveWidth: 900
     });
 
     (function () {
@@ -54,7 +67,7 @@ $(document).ready(function() {
 
     $(function () {
         $('.scrollto').click(function () {
-            $('.hamburger-menu').trigger("click");
+            $('.header .btn-navigation.hamburger-menu').trigger("click");
         });
     });
 
