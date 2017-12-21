@@ -6,4 +6,5 @@
 //= parts/jquery.maskedinput.min.js
 //= parts/common.js
 //= parts/wow.js
+//= parts/scroll-up-bar.js
 //= parts/script.js

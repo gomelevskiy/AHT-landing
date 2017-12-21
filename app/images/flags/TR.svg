@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>TR</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="18"></rect>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TR">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <rect id="Mask-Copy" fill="#E92434" mask="url(#mask-2)" x="0" y="0" width="26" height="18"></rect>
+            <polygon id="Star-8" fill="#FFFFFF" mask="url(#mask-2)" points="17.3510817 9.73122335 15.8956135 10.7368641 16.4326328 9.08446323 14.9960846 8.05358253 16.7834491 8.03798338 17.3510817 6.39522331 17.9187143 8.03798338 19.7060788 8.05358253 18.2695306 9.08446323 18.8065499 10.7368641 17.3510817 9.73122335 17.3510817 9.73122335"></polygon>
+            <path d="M16.1597069,5.68429729 C15.3729948,5.13010024 14.3838736,4.8 13.3095238,4.8 C10.7453446,4.8 8.66666667,6.68040405 8.66666667,9 C8.66666667,11.3195959 10.7453446,13.2 13.3095238,13.2 C14.3838736,13.2 15.3729948,12.8698998 16.1597069,12.3157027 C15.1402185,13.5841552 13.5493616,14.4 11.7619048,14.4 C8.68488973,14.4 6.19047619,11.9823376 6.19047619,9 C6.19047619,6.01766235 8.68488973,3.6 11.7619048,3.6 C13.5493616,3.6 15.1402185,4.41584481 16.1597069,5.68429729 Z" id="Oval-41" fill="#FFFFFF" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

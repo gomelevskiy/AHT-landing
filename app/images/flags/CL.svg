@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>CL</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="18"></rect>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CL">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#F5F5F5" stroke-width="0.5" x="0.25" y="0.25" width="25.5" height="17.5"></rect>
+            </g>
+            <rect id="Rectangle-2" fill="#EA3B2E" mask="url(#mask-2)" x="0" y="8.4" width="26" height="9.6"></rect>
+            <rect id="Rectangle-83" fill="#0B48C2" mask="url(#mask-2)" x="0" y="0" width="8.66666667" height="8.4"></rect>
+            <polygon id="Star-8" fill="#FFFFFF" mask="url(#mask-2)" points="4.33333333 5.13600004 2.87786509 6.14164079 3.41488443 4.48923992 1.97833625 3.45835921 3.7657007 3.44276006 4.33333333 1.8 4.90096597 3.44276006 6.68833042 3.45835921 5.25178223 4.48923992 5.78880158 6.14164079"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>ES</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="18"></rect>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ES">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <rect id="Rectangle-2" fill="#DD172C" mask="url(#mask-2)" x="0" y="0" width="26" height="4.8"></rect>
+            <rect id="Rectangle-2" fill="#DD172C" mask="url(#mask-2)" x="0" y="13.2" width="26" height="4.8"></rect>
+            <rect id="Rectangle-2" fill="#FFD133" mask="url(#mask-2)" x="0" y="4.8" width="26" height="8.4"></rect>
+            <polygon id="Rectangle-139-Copy" fill="#FFEDB1" mask="url(#mask-2)" points="6.80952381 8.4 8.04761905 8.4 8.04761905 9 6.80952381 9"></polygon>
+            <path d="M6.8093389,11.062919 C6.78058345,11.0653998 6.75162903,11.0666667 6.722534,11.0666667 L6.722534,11.7333333 L6.89651362,11.7333333 L6.89651362,11.0666667 C6.86728182,11.0666667 6.83820448,11.0653998 6.8093389,11.062919 Z" id="Rectangle-137" stroke="#A41517" stroke-width="0.666666667" mask="url(#mask-2)"></path>
+            <polygon id="Rectangle-139" fill="#A41517" mask="url(#mask-2)" points="5.57142857 9 8.04761905 9 8.04761905 9.6 7.42857143 9.6 6.80952381 10.8 6.19047619 9.6 5.57142857 9.6"></polygon>
+            <rect id="Rectangle-135" fill="#A41517" mask="url(#mask-2)" x="3.71428571" y="7.2" width="1.23809524" height="4.2"></rect>
+            <rect id="Rectangle-135-Copy" fill="#A41517" mask="url(#mask-2)" x="8.66666667" y="7.2" width="1.23809524" height="4.2"></rect>
+            <path d="M5.57142857,6.6 C5.57142857,6.26862915 5.83642433,6 6.17084521,6 L7.44820241,6 C7.77925108,6 8.04761905,6.27832031 8.04761905,6.6 L8.04761905,6.87209473 C8.04761905,7.05319181 7.90013758,7.2 7.72390039,7.2 L5.89514723,7.2 C5.71636235,7.2 5.57142857,7.05285645 5.57142857,6.87209473 L5.57142857,6.6 Z" id="Rectangle-138" fill="#A41517" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

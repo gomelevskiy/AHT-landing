@@ -14,10 +14,10 @@ $(window).scroll(function () {
 
 $(document).ready(function() {
 
+    // Mobile mask
   $("input[type='tel']").mask("+7 (999) 999-99-99");
 
     // Init fullpage script
-
     $('#fullpage-pol').fullpage({
         // Navigation
         menu: '#modalMenu',
@@ -33,7 +33,7 @@ $(document).ready(function() {
         css3: true,
         scrollingSpeed: 700,
         autoScrolling: true,
-        fitToSection: true,
+        fitToSection: false,
         fitToSectionDelay: 1000,
         scrollBar: false,
         easing: 'easeInOutCubic',
@@ -55,19 +55,26 @@ $(document).ready(function() {
         touchSensitivity: 0,
         normalScrollElementTouchThreshold: 0,
         bigSectionsDestination: null,
-        responsiveWidth: 900
+        responsiveWidth: 1025
     });
 
+    // Menu btn
     (function () {
         $('.hamburger-menu').on('click', function() {
             $('.bar').toggleClass('animate');
             $('.modal-menu').toggleClass('show');
+            if( $(".modal-menu").hasClass("show") ) {
+                $(".header .btn-navigation span.feedback-on").hide();
+            }else {
+                $(".header .btn-navigation span.feedback-on").show();
+            }
         });
     })();
 
+    //Close menu after click menu selectors
     $(function () {
         $('.scrollto').click(function () {
-            $('.header .btn-navigation.hamburger-menu').trigger("click");
+            $('.header .btn-navigation .hamburger-menu').trigger("click");
         });
     });
 
@@ -100,7 +107,7 @@ $(document).ready(function() {
         thumbborderwidth: 3,
         thumbmargin: 55,
         transition: 'dissolve',
-        swipe: false
+        swipe: true
     }).on('fotorama:ready', function (e, fotorama) {
 
         slideBackground = "background-image: url('"+ fotorama.activeFrame.img +"');";
@@ -118,7 +125,7 @@ $(document).ready(function() {
         slideTextSmall = fotorama.activeFrame.html.children[1].innerHTML;
 
         $("body .section5 .fotorama").attr("style", slideBackground);
-        $("body .section5 .relative .slide-text").text(slideText);
+        $("body .section5 .relative .custom-h1").text(slideText);
         $("body .section5 .relative .slide-text-small").text(slideTextSmall);
 
     });
@@ -138,8 +145,17 @@ $(document).ready(function() {
        $(".modal-feedback").addClass("show");
     });
 
-    $(".close-feedback").click(function() {
-        $(".modal-feedback").removeClass("show");
+    // Show all elements section two
+    $(".show-all-elements").click(function() {
+        $(".modal-view-all-elements").addClass("show");
     });
+
+    // Close modals
+    $(".close-feedback").click(function() {
+        $(this).parent().parent().removeClass("show");
+    });
+
+    // Close and view navigation after scroll
+    $('.header').scrollupbar().isInViewport;
 
 });

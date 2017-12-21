@@ -1,10 +1,11 @@
 $transition: all 0.3s ease
-$transitionHight: all 0.5s ease
+$transitionHeight: all 0.5s ease
 $transitionEasy: all 0.1s ease
 
 /* Main style */
 body
   font-family: "ProximaNova"
+  -webkit-font-smoothing: antialiased
 
   h1, .h1
     font-size: 38px
@@ -13,6 +14,10 @@ body
     font-family: inherit
     text-transform: uppercase
     letter-spacing: 6px
+    -webkit-font-smoothing: antialiased
+
+    &.custom-h1
+      max-width: 560px
 
   h2, .h2
     font-size: 28px
@@ -20,14 +25,16 @@ body
     font-family: "ProximaNovaBold"
     letter-spacing: 4px
     text-transform: uppercase
+    -webkit-font-smoothing: antialiased
 
-  a, a:hover
+  a, a:hover, a:focus
     color: #fff
     font-size: 14px
     font-family: inherit
     text-decoration: none
     line-height: normal
     transition: $transition
+    -webkit-font-smoothing: antialiased
 
   p.text
     line-height: 20px
@@ -41,12 +48,14 @@ body
     background-position: center
     background-size: cover
     overflow: hidden
+    -webkit-font-smoothing: antialiased
 
     .dop-text
       font-family: "ProximaNova"
       color: #fff
       text-transform: uppercase
       font-size: 14px
+      -webkit-font-smoothing: antialiased
 
       &:after
         content: ''
@@ -69,6 +78,9 @@ body
     float: left
     padding-left: 5%
 
+  .mobile-button
+    transition: $transitionHeight
+
   .overflow-h
     overflow: hidden !important
 
@@ -89,7 +101,8 @@ body
 
   .btn, a.btn
     display: inline-block
-    background-color: #b99379
+    //background-color: #b99379
+    background-image: linear-gradient(to right, #fd7d57, #fa2471)
     color: #fff
     height: 57px
     line-height: 57px
@@ -104,13 +117,18 @@ body
     box-shadow: none
     margin-top: 35px
     transition: $transition
+    -webkit-font-smoothing: antialiased
+
+    &:focus
+      background-image: linear-gradient(to right, #fd7d57, #fa2471)
+      color: #fff
 
     &:hover
       color: #fff
       opacity: 0.8
 
   $bar-width: 22px
-  $bar-height: 3px
+  $bar-height: 2px
   $bar-spacing: 6px
 
   .bar,
@@ -219,7 +237,8 @@ body
 
       .table-btn
         width: 100%
-        background-color: #0e1428
+        //background-color: #0e1428
+        background-image: linear-gradient(to right, #fd7d57, #fa2471)
         height: 40px
         line-height: 40px
         text-align: center
@@ -257,6 +276,7 @@ body
     left: 0
     z-index: 300
     overflow: hidden
+    //transition: $transition
 
     .logo
       float: left
@@ -267,7 +287,8 @@ body
       padding-right: 80px
 
       span
-        color: #fff
+        color: #fff !important
+        border-bottom: 2px solid transparent !important
         cursor: pointer
         font-size: 14px
         font-family: inherit
@@ -275,27 +296,38 @@ body
         line-height: normal
         transition: $transition
 
+        &.feedback-on
+          &:hover:before
+            background-image: url("../images/doc-h.svg")
+
       a, span
         text-transform: uppercase
         padding-bottom: 4px
-        border-bottom: 2px solid #fff
+        border-bottom: 2px solid #fd7d57
         display: inline-block
-        color: #fff
+        color: #fd7d57
+        letter-spacing: 2px
+        vertical-align: middle
 
         &:first-child
           margin-right: 40px
           position: relative
 
-          &:after
+          &:before
             content: ''
-            width: 4px
-            height: 4px
-            border-radius: 100%
-            background-color: #fff
-            position: absolute
-            top: 50%
-            margin-top: -2px
-            right: -22px
+            width: 20px
+            height: 20px
+            background-image: url("../images/doc.svg")
+            background-repeat: no-repeat
+            background-position: center
+            background-size: contain
+            display: inline-block
+            vertical-align: middle
+            margin-right: 10px
+            transition: $transition
+
+        &:hover
+          border-bottom: 2px solid transparent
 
   footer, .footer
     position: fixed
@@ -307,6 +339,7 @@ body
     font-family: "ProximaNova"
     font-size: 14px
     z-index: 100
+    -webkit-font-smoothing: antialiased
 
     span
       margin-right: 61px
@@ -316,13 +349,14 @@ body
     font-family: "ProximaNova"
     color: #fff
     font-size: 14px
-    padding: 25px 60px 25px 15px
+    padding: 20px 60px 20px 25px
     position: absolute
     right: 0
-    bottom: 30px
+    bottom: 80px
+    -webkit-box-sizing: border-box
     box-sizing: border-box
     width: 295px
-    height: 102px
+    height: 90px
     overflow: hidden
 
     .carousel-flag
@@ -372,10 +406,216 @@ body
             background-repeat: no-repeat
             background-size: cover
             background-position: center
+            position: relative
+            top: -2px
 
-          &.flag1:before
+          &.GB:before
             content: ''
             background-image: url("../images/flags/GB.svg")
+
+          &.UZ:before
+            content: ''
+            background-image: url("../images/flags/UZ.svg")
+
+          &.RU:before
+            content: ''
+            background-image: url("../images/flags/RU.svg")
+
+          &.BY:before
+            content: ''
+            background-image: url("../images/flags/BY.svg")
+
+          &.KZ:before
+            content: ''
+            background-image: url("../images/flags/KZ.svg")
+
+          &.GE:before
+            content: ''
+            background-image: url("../images/flags/GE.svg")
+
+          &.AZ:before
+            content: ''
+            background-image: url("../images/flags/AZ.svg")
+
+          &.AM:before
+            content: ''
+            background-image: url("../images/flags/AM.svg")
+
+          &.MD:before
+            content: ''
+            background-image: url("../images/flags/MD.svg")
+
+          &.KG:before
+            content: ''
+            background-image: url("../images/flags/KG.svg")
+
+          &.TJ:before
+            content: ''
+            background-image: url("../images/flags/TJ.svg")
+
+          &.IT:before
+            content: ''
+            background-image: url("../images/flags/IT.svg")
+
+          &.EN:before
+            content: ''
+            background-image: url("../images/flags/EN.svg")
+
+          &.GB:before
+            content: ''
+            background-image: url("../images/flags/GB.svg")
+
+          &.GB:before
+            content: ''
+            background-image: url("../images/flags/GB.svg")
+
+          &.GB:before
+            content: ''
+            background-image: url("../images/flags/GB.svg")
+
+          &.FR:before
+            content: ''
+            background-image: url("../images/flags/FR.svg")
+
+          &.NL:before
+            content: ''
+            background-image: url("../images/flags/NL.svg")
+
+          &.ES:before
+            content: ''
+            background-image: url("../images/flags/ES.svg")
+
+          &.NO:before
+            content: ''
+            background-image: url("../images/flags/NO.svg")
+
+          &.FI:before
+            content: ''
+            background-image: url("../images/flags/FI.svg")
+
+          &.EE:before
+            content: ''
+            background-image: url("../images/flags/EE.svg")
+
+          &.LV:before
+            content: ''
+            background-image: url("../images/flags/LV.svg")
+
+          &.LT:before
+            content: ''
+            background-image: url("../images/flags/LT.svg")
+
+          &.UA:before
+            content: ''
+            background-image: url("../images/flags/UA.svg")
+
+          &.CA:before
+            content: ''
+            background-image: url("../images/flags/CA.svg")
+
+          &.US:before
+            content: ''
+            background-image: url("../images/flags/US.svg")
+
+          &.JP:before
+            content: ''
+            background-image: url("../images/flags/JP.svg")
+
+          &.CN:before
+            content: ''
+            background-image: url("../images/flags/CN.svg")
+
+          &.IN:before
+            content: ''
+            background-image: url("../images/flags/IN.svg")
+
+          &.DK:before
+            content: ''
+            background-image: url("../images/flags/DK.svg")
+
+          &.IS:before
+            content: ''
+            background-image: url("../images/flags/IS.svg")
+
+          &.SE:before
+            content: ''
+            background-image: url("../images/flags/SE.svg")
+
+          &.TR:before
+            content: ''
+            background-image: url("../images/flags/TR.svg")
+
+          &.CY:before
+            content: ''
+            background-image: url("../images/flags/CY.svg")
+
+          &.GR:before
+            content: ''
+            background-image: url("../images/flags/GR.svg")
+
+          &.IL:before
+            content: ''
+            background-image: url("../images/flags/IL.svg")
+
+          &.CZ:before
+            content: ''
+            background-image: url("../images/flags/CZ.svg")
+
+          &.RO:before
+            content: ''
+            background-image: url("../images/flags/RO.svg")
+
+          &.SK:before
+            content: ''
+            background-image: url("../images/flags/SK.svg")
+
+          &.PL:before
+            content: ''
+            background-image: url("../images/flags/PL.svg")
+
+          &.HU:before
+            content: ''
+            background-image: url("../images/flags/HU.svg")
+
+          &.CH:before
+            content: ''
+            background-image: url("../images/flags/CH.svg")
+
+          &.IE:before
+            content: ''
+            background-image: url("../images/flags/IE.svg")
+
+          &.DE:before
+            content: ''
+            background-image: url("../images/flags/DE.svg")
+
+          &.BE:before
+            content: ''
+            background-image: url("../images/flags/BE.svg")
+
+          &.AT:before
+            content: ''
+            background-image: url("../images/flags/AT.svg")
+
+          &.IR:before
+            content: ''
+            background-image: url("../images/flags/IR.svg")
+
+          &.LI:before
+            content: ''
+            background-image: url("../images/flags/LI.svg")
+
+          &.RS:before
+            content: ''
+            background-image: url("../images/flags/RS.svg")
+
+          &.SI:before
+            content: ''
+            background-image: url("../images/flags/SI.svg")
+
+          &.CL:before
+            content: ''
+            background-image: url("../images/flags/CL.svg")
 
   .section1
     .absolute
@@ -401,7 +641,7 @@ body
           color: #fff
           font-size: 34px
           list-style: none
-          margin-bottom: 55px
+          margin-bottom: 35px
 
           &:last-child
             margin-bottom: 0
@@ -529,7 +769,7 @@ body
         width: 90px
 
       .fotorama__thumb-border
-        border-color: #af997a
+        border-color: #fd7d57
 
       .fotorama__thumb-border
         margin-top: 40px
@@ -550,6 +790,9 @@ body
         height: 50px
         opacity: 1 !important
         z-index: 60
+
+        &:hover
+          opacity: 0.8 !important
 
         &.fotorama__arr--disabled
           opacity: 0.3 !important
@@ -581,8 +824,8 @@ body
       &-small
         font-family: "ProximaNova"
         color: #fff
-        width: 100%
-        text-align: center
+        max-width: 610px
+        text-align: left
         font-size: 14px
 
   .section6
@@ -664,7 +907,7 @@ body
           &:before
             background-image: url("../images/doc-h.svg")
           a
-            color: #b99379
+            color: #fd7d57
 
         &:nth-child(odd)
           padding-right: 55px
@@ -857,7 +1100,7 @@ body
       margin-top: 25px
 
     svg
-      width: 100%
+      float: right
       height: auto
 
     .grafic
@@ -1018,7 +1261,7 @@ body
             right: 50%
 
 
-.modal-feedback
+.modal-feedback, .modal-view-all-elements
   line-height: 100vh
   height: 100vh
   width: 50%
@@ -1029,7 +1272,7 @@ body
   z-index: 800
   visibility: hidden
   right: -100%
-  transition: $transitionHight
+  transition: $transitionHeight
 
   &.show
     right: 0
@@ -1040,15 +1283,15 @@ body
     line-height: normal
     display: inline-block
     margin: 0px auto
-    position: relative
+    //position: relative
     vertical-align: middle
 
   .close-feedback
     width: 13px
     height: 13px
     position: absolute
-    top: -56px
-    right: -13px
+    top: 30px
+    right: 45px
     color: #fff
     font-size: 30px
     cursor: pointer
@@ -1244,3 +1487,41 @@ body
 
         &:last-child
           margin-bottom: 0
+
+.modal-view-all-elements
+  text-align: center
+
+  .h1
+    text-align: left
+
+  .modal-view-all-elements__list
+    margin: 0
+    padding: 0
+
+    li
+      list-style: none
+      text-align: left
+      font-family: "ProximaNova"
+      color: #fff
+      font-size: 14px
+      margin-bottom: 10px
+
+      &:before
+        content: ''
+        width: 40px
+        height: 2px
+        background-color: #fff
+        display: inline-block
+        vertical-align: middle
+        margin-right: 15px
+
+      span
+        display: inline-block
+        vertical-align: middle
+        line-height: 20px
+
+.form-successful
+  text-align: center
+
+  .text
+    color: #fff

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>KG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="18"></rect>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="KG">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <rect id="Mask-Copy" fill="#F22A46" mask="url(#mask-2)" x="0" y="0" width="26" height="18"></rect>
+            <ellipse id="Oval-9" fill="#FFF04D" mask="url(#mask-2)" cx="13" cy="9" rx="3.0952381" ry="3"></ellipse>
+            <path d="M13,13.2422517 L11.4847384,15.4345242 L11.1009228,12.8221367 L8.75433135,14.1600878 L9.57798117,11.6450007 L6.86483104,11.8636327 L8.73281231,9.94398981 L6.19047619,9 L8.73281231,8.05601019 L6.86483104,6.13636732 L9.57798117,6.35499932 L8.75433135,3.83991222 L11.1009228,5.17786328 L11.4847384,2.56547578 L13,4.75774829 L14.5152616,2.56547578 L14.8990772,5.17786328 L17.2456687,3.83991222 L16.4220188,6.35499932 L19.135169,6.13636732 L17.2671877,8.05601019 L19.8095238,9 L17.2671877,9.94398981 L19.135169,11.8636327 L16.4220188,11.6450007 L17.2456687,14.1600878 L14.8990772,12.8221367 L14.5152616,15.4345242 L13,13.2422517 Z M13,13.2 C15.3932339,13.2 17.3333333,11.3195959 17.3333333,9 C17.3333333,6.68040405 15.3932339,4.8 13,4.8 C10.6067661,4.8 8.66666667,6.68040405 8.66666667,9 C8.66666667,11.3195959 10.6067661,13.2 13,13.2 Z" id="Star-28" fill="#FFF04D" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

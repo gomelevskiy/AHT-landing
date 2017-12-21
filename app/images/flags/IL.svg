@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>IL</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="18"></rect>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IL">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#F5F5F5" stroke-width="0.5" x="0.25" y="0.25" width="25.5" height="17.5"></rect>
+            </g>
+            <rect id="Rectangle-2" fill="#0E46D4" mask="url(#mask-2)" x="0" y="0" width="26" height="3.6"></rect>
+            <rect id="Rectangle-2" fill="#0E46D4" mask="url(#mask-2)" x="0" y="14.4" width="26" height="3.6"></rect>
+            <path d="M8.82022169,9.49277213 L15.3026677,5.72571829 L15.1779591,13.0504706 L8.82022169,9.49277213 Z" id="Star-25" stroke="#093EC5" stroke-width="0.666666667" mask="url(#mask-2)" transform="translate(12.226191, 9.399038) rotate(-30.000000) translate(-12.226191, -9.399038) "></path>
+            <path d="M8.82022178,8.69469564 L15.3026674,4.92764183 L15.1779591,12.2523945 L8.82022178,8.69469564 Z" id="Star-25-Copy" stroke="#093EC5" stroke-width="0.666666667" mask="url(#mask-2)" transform="translate(12.226190, 8.600962) scale(1, -1) rotate(-30.000000) translate(-12.226190, -8.600962) "></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>GE</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="18"></rect>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GE">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#F5F5F5" stroke-width="0.5" x="0.25" y="0.25" width="25.5" height="17.5"></rect>
+            </g>
+            <path d="M11.1428571,7.2 L11.1428571,-1.2 L14.8571429,-1.2 L14.8571429,7.2 L27.2380952,7.2 L27.2380952,10.8 L14.8571429,10.8 L14.8571429,19.2 L11.1428571,19.2 L11.1428571,10.8 L-1.23809524,10.8 L-1.23809524,7.2 L11.1428571,7.2 Z" id="Rectangle-2" fill="#FF2B37" mask="url(#mask-2)"></path>
+            <path d="M20.0571429,3.24 L19.8095238,1.8 L21.047619,1.8 L20.8,3.24 L22.2857143,3 L22.2857143,4.2 L20.8,3.96 L21.047619,5.4 L19.8095238,5.4 L20.0571429,3.96 L18.5714286,4.2 L18.5714286,3 L20.0571429,3.24 Z" id="Rectangle-742" fill="#FD0D1B" mask="url(#mask-2)"></path>
+            <path d="M5.2,3.24 L4.95238095,1.8 L6.19047619,1.8 L5.94285714,3.24 L7.42857143,3 L7.42857143,4.2 L5.94285714,3.96 L6.19047619,5.4 L4.95238095,5.4 L5.2,3.96 L3.71428571,4.2 L3.71428571,3 L5.2,3.24 Z" id="Rectangle-742" fill="#FD0D1B" mask="url(#mask-2)"></path>
+            <path d="M5.2,14.04 L4.95238095,12.6 L6.19047619,12.6 L5.94285714,14.04 L7.42857143,13.8 L7.42857143,15 L5.94285714,14.76 L6.19047619,16.2 L4.95238095,16.2 L5.2,14.76 L3.71428571,15 L3.71428571,13.8 L5.2,14.04 Z" id="Rectangle-742" fill="#FD0D1B" mask="url(#mask-2)"></path>
+            <path d="M20.0571429,14.04 L19.8095238,12.6 L21.047619,12.6 L20.8,14.04 L22.2857143,13.8 L22.2857143,15 L20.8,14.76 L21.047619,16.2 L19.8095238,16.2 L20.0571429,14.76 L18.5714286,15 L18.5714286,13.8 L20.0571429,14.04 Z" id="Rectangle-742" fill="#FD0D1B" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

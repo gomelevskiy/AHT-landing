@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>CH</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="18"></rect>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CH">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <rect id="Mask-Copy" fill="#FF0000" mask="url(#mask-2)" x="0" y="0" width="26" height="18"></rect>
+            <path d="M11.1428571,10.8 L7.77134487,10.8 C7.58203632,10.8 7.42857143,10.6453125 7.42857143,10.4677734 L7.42857143,7.53222656 C7.42857143,7.3487429 7.5696403,7.2 7.77134487,7.2 L11.1428571,7.2 L11.1428571,3.93222656 C11.1428571,3.7487429 11.283926,3.6 11.4856306,3.6 L14.5143694,3.6 C14.703678,3.6 14.8571429,3.7546875 14.8571429,3.93222656 L14.8571429,7.2 L18.2286551,7.2 C18.4179637,7.2 18.5714286,7.3546875 18.5714286,7.53222656 L18.5714286,10.4677734 C18.5714286,10.6512571 18.4303597,10.8 18.2286551,10.8 L14.8571429,10.8 L14.8571429,14.0677734 C14.8571429,14.2512571 14.716074,14.4 14.5143694,14.4 L11.4856306,14.4 C11.296322,14.4 11.1428571,14.2453125 11.1428571,14.0677734 L11.1428571,10.8 Z" id="Rectangle-78" fill="#FFFFFF" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>RS</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="18"></rect>
+        <path d="M0.619047619,3 C0.619047619,2.1914135 1.06893776,0.63165726 1.06893776,0.63165726 C1.16236085,0.282802588 1.52954901,0 1.90213509,0 L4.2883411,0 C4.65508018,0 5.03331062,0.293595416 5.12811929,0.652606691 C5.12811929,0.652606691 5.57142857,2.17212639 5.57142857,3 C5.57142857,3.77396736 5.12153843,5.3602891 5.12153843,5.3602891 C5.02811534,5.71359167 4.75268482,6.23137207 4.49693662,6.48808594 C4.49693662,6.48808594 4.02380952,7.2 3.0952381,7.2 C2.16666667,7.2 1.69353957,6.48808594 1.69353957,6.48808594 C1.44200461,6.21852352 1.16218785,5.72110627 1.06893776,5.36477597 C1.06893776,5.36477597 0.619047619,3.79325447 0.619047619,3 Z" id="path-3"></path>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RS">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#F5F5F5" stroke-width="0.5" x="0.25" y="0.25" width="25.5" height="17.5"></rect>
+            </g>
+            <rect id="Rectangle-2" fill="#17508F" mask="url(#mask-2)" x="0" y="6" width="26" height="6"></rect>
+            <rect id="Rectangle-2" fill="#E1444D" mask="url(#mask-2)" x="0" y="0" width="26" height="6"></rect>
+            <g id="Rectangle-1668" mask="url(#mask-2)">
+                <g transform="translate(4.952381, 6.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" stroke="none" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <path d="M5.57142857,0.6 L0.619047619,6.6" id="Line" stroke="#E1444D" stroke-width="1.33333333" fill="none" stroke-linecap="square" mask="url(#mask-4)"></path>
+                    <path d="M5.57142857,0.6 L0.619047619,6.6" id="Line" stroke="#E1444D" stroke-width="1.33333333" fill="none" stroke-linecap="square" mask="url(#mask-4)" transform="translate(3.095238, 3.600000) scale(-1, 1) translate(-3.095238, -3.600000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

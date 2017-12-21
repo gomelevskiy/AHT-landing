@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>SI</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="18"></rect>
+        <rect id="path-3" x="0" y="12" width="26" height="6"></rect>
+        <filter x="-5.8%" y="-25.0%" width="111.5%" height="150.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SI">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#F5F5F5" stroke-width="0.5" x="0.25" y="0.25" width="25.5" height="17.5"></rect>
+            </g>
+            <path d="M0,6 L4.95238095,6 L4.95238095,4.8 C4.95238095,4.8 5.90849457,4.2 6.80952381,4.2 C7.71055305,4.2 8.58369373,4.8 8.58369373,4.8 L8.58369373,6 L26,6 L26,12 L0,12 L0,6 Z M6.80952381,8.4 C7.49330493,8.4 8.04761905,7.8627417 8.04761905,7.2 C8.04761905,6.5372583 7.49330493,6 6.80952381,6 C6.12574269,6 5.57142857,6.5372583 5.57142857,7.2 C5.57142857,7.8627417 6.12574269,8.4 6.80952381,8.4 Z" id="Combined-Shape" fill="#0C47B7" mask="url(#mask-2)"></path>
+            <g id="Rectangle-2" mask="url(#mask-2)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#E53B35" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

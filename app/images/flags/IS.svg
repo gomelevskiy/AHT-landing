@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>IS</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="18"></rect>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IS">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <rect id="Mask-Copy" fill="#0E4CB5" mask="url(#mask-2)" x="0" y="0" width="26" height="18"></rect>
+            <polygon id="Rectangle-2" fill="#FFFFFF" mask="url(#mask-2)" points="0 10.8 7.42857143 10.8 7.42857143 18 11.1428571 18 11.1428571 10.8 26 10.8 26 7.2 11.1428571 7.2 11.1428571 0 7.42857143 0 7.42857143 7.2 0 7.2"></polygon>
+            <polygon id="Rectangle-2" fill="#EB363A" mask="url(#mask-2)" points="0 9.6 8.66666667 9.6 8.66666667 18 9.9047619 18 9.9047619 9.6 26 9.6 26 8.4 9.9047619 8.4 9.9047619 0 8.66666667 0 8.66666667 8.4 0 8.4"></polygon>
+        </g>
+    </g>
+</svg>

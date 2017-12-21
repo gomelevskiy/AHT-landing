@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="31px" height="34px" viewBox="0 0 31 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 6</title>
+<svg width="32px" height="34px" viewBox="0 0 32 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="Group-6" transform="translate(1.000000, 1.000000)" stroke="#B99379" stroke-width="1.5">
-            <path d="M0,5.81818182 L29,5.81818182" id="Stroke-712"></path>
-            <polygon id="Stroke-713" points="29 32 0 32 0 5.81818182 5.8 0 23.2 0 29 5.81818182"></polygon>
-            <path d="M21.75,13.0909091 C21.75,17.1076364 18.504175,20.3636364 14.5,20.3636364 C10.495825,20.3636364 7.25,17.1076364 7.25,13.0909091" id="Stroke-714"></path>
+    <defs>
+        <linearGradient x1="94.9305122%" y1="-16.5997327%" x2="4.45157258%" y2="107.650861%" id="linearGradient-1">
+            <stop stop-color="#1DC6DA" offset="0%"></stop>
+            <stop stop-color="#05C0F3" offset="30.6188491%"></stop>
+            <stop stop-color="#05BFF3" offset="63.1949868%"></stop>
+            <stop stop-color="#05DEF9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AHT-9" transform="translate(-730.000000, -379.000000)" fill-rule="nonzero" fill="url(#linearGradient-1)">
+            <g id="Group" transform="translate(731.669983, 380.000000)">
+                <path d="M0,6.56818182 L29,6.56818182 C29.4142136,6.56818182 29.75,6.23239538 29.75,5.81818182 C29.75,5.40396826 29.4142136,5.06818182 29,5.06818182 L0,5.06818182 C-0.414213562,5.06818182 -0.75,5.40396826 -0.75,5.81818182 C-0.75,6.23239538 -0.414213562,6.56818182 0,6.56818182 Z" id="Stroke-712"></path>
+                <path d="M28.25,31.25 L28.25,6.12815467 L22.8886521,0.75 L6.11134794,0.75 L0.75,6.12815467 L0.75,31.25 L28.25,31.25 Z M29,32.75 L0,32.75 C-0.414213562,32.75 -0.75,32.4142136 -0.75,32 L-0.75,5.81818182 C-0.75,5.61967613 -0.671304253,5.42926652 -0.531159373,5.28868232 L5.26884063,-0.5294995 C5.40955979,-0.670659788 5.60068089,-0.75 5.8,-0.75 L23.2,-0.75 C23.3993191,-0.75 23.5904402,-0.670659788 23.7311594,-0.5294995 L29.5311594,5.28868232 C29.6713043,5.42926652 29.75,5.61967613 29.75,5.81818182 L29.75,32 C29.75,32.4142136 29.4142136,32.75 29,32.75 Z" id="Stroke-713"></path>
+                <path d="M21,13.0909091 C21,16.6939474 18.089435,19.6136364 14.5,19.6136364 C10.910565,19.6136364 8,16.6939474 8,13.0909091 C8,12.6766955 7.66421356,12.3409091 7.25,12.3409091 C6.83578644,12.3409091 6.5,12.6766955 6.5,13.0909091 C6.5,17.5213253 10.081085,21.1136364 14.5,21.1136364 C18.918915,21.1136364 22.5,17.5213253 22.5,13.0909091 C22.5,12.6766955 22.1642136,12.3409091 21.75,12.3409091 C21.3357864,12.3409091 21,12.6766955 21,13.0909091 Z" id="Stroke-714"></path>
+            </g>
         </g>
     </g>
 </svg>

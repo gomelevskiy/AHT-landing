@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>AZ</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="18"></rect>
+        <path d="M14.0320377,7.50329909 C13.9978406,7.50111125 13.9633399,7.5 13.9285714,7.5 C13.073845,7.5 12.3809524,8.17157288 12.3809524,9 C12.3809524,9.82842712 13.073845,10.5 13.9285714,10.5 C13.9633399,10.5 13.9978406,10.4988888 14.0320377,10.4967009 C13.7368803,10.6882721 13.3819021,10.8 13,10.8 C11.9743283,10.8 11.1428571,9.99411255 11.1428571,9 C11.1428571,8.00588745 11.9743283,7.2 13,7.2 C13.3819021,7.2 13.7368803,7.31172793 14.0320377,7.50329909 Z M14.2380952,9.6 C13.8962047,9.6 13.6190476,9.33137085 13.6190476,9 C13.6190476,8.66862915 13.8962047,8.4 14.2380952,8.4 C14.5799858,8.4 14.8571429,8.66862915 14.8571429,9 C14.8571429,9.33137085 14.5799858,9.6 14.2380952,9.6 Z" id="path-3"></path>
+        <filter x="-13.5%" y="-13.9%" width="126.9%" height="155.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AZ">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <rect id="Rectangle-2" fill="#24AAD5" mask="url(#mask-2)" x="0" y="0" width="26" height="6"></rect>
+            <rect id="Rectangle-2" fill="#21BF75" mask="url(#mask-2)" x="0" y="12" width="26" height="6"></rect>
+            <rect id="Rectangle-2" fill="#ED1845" mask="url(#mask-2)" x="0" y="6" width="26" height="6"></rect>
+            <g id="Oval-68" mask="url(#mask-2)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

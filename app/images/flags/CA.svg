@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>CA</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="18"></rect>
+    </defs>
+    <g id="Landing-MHT-Warm-Floor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CA">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#F5F5F5" stroke-width="0.5" x="0.25" y="0.25" width="25.5" height="17.5"></rect>
+            </g>
+            <rect id="Mask" fill="#FF3131" mask="url(#mask-2)" x="18.5714286" y="0" width="7.42857143" height="18"></rect>
+            <rect id="Rectangle-2" fill="#FF3131" mask="url(#mask-2)" x="0" y="0" width="7.42857143" height="18"></rect>
+            <path d="M14.4768125,8.76862793 C14.3449726,8.8964112 14.2679532,8.85530376 14.3043442,8.67894745 L14.8571429,6 L13.6190476,6.6 L13,4.8 L12.3809524,6.6 L11.1428571,6 L11.6956558,8.67894745 C11.7322441,8.85625988 11.6476469,8.88925781 11.5231875,8.76862793 L10.7625267,8.03137207 C10.6306869,7.9035888 10.4159797,7.90451202 10.28624,8.0302597 L9.9047619,8.4 L8.66666667,7.8 L9.28571429,9 L8.9042362,9.3697403 C8.77303017,9.49690922 8.77727776,9.70720768 8.90945566,9.83531857 L10.5238095,11.4 L12.3809524,11.4 L12.6904762,13.2 L13.3095238,13.2 L13.6190476,11.4 L15.4761905,11.4 L17.0905443,9.83531857 C17.224633,9.70535571 17.2255035,9.49548798 17.0957638,9.3697403 L16.7142857,9 L17.3333333,7.8 L16.0952381,8.4 L15.71376,8.0302597 C15.582554,7.90309078 15.3619327,7.91074219 15.2374733,8.03137207 L14.4768125,8.76862793 Z" id="Rectangle-66" fill="#FF3131" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

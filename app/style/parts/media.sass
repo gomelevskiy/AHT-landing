@@ -1,4 +1,14 @@
-@media screen and (max-width: 540px)
+@media screen and (min-width: 1024px)
+  body
+    .header
+      top: 30px !important
+
+@media screen and (max-width: 1366px)
+  body
+    .section11 svg
+      width: 100%
+
+@media screen and (max-width: 1024px)
   body
     background-color: #0e1428
 
@@ -28,12 +38,20 @@
       right: -100%
       bottom: 25px
       box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.24), 0 0 12px 0 rgba(0, 0, 0, 0.12), 0 6px 6px 0 rgba(0, 0, 0, 0.24), 0 0 6px 0 rgba(0, 0, 0, 0.12)
-      background-color: #b99379
-      background-repeat: no-repeat
-      background-position: center
-      background-size: 20px
-      background-image: url("../images/mail-float-btn.svg")
-      transition: $transitionHight
+      background-image: linear-gradient(to right, #fd7d57, #fa2471)
+
+      &:before
+        content: ""
+        position: absolute
+        left: 0
+        right: 0
+        top: 0
+        width: 100%
+        height: 100%
+        background-repeat: no-repeat
+        background-position: center
+        background-size: 20px
+        background-image: url("../images/mail-float-btn.svg")
 
       &.fixed-bar
         right: 25px
@@ -87,10 +105,10 @@
     .header
       height: inherit
       top: 35px
-      transition: $transition
 
       &.fixed-bar
-        background: #b99379
+        background: #22202b
+        bax-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.24), 0 0 12px 0 rgba(0, 0, 0, 0.12), 0 6px 6px 0 rgba(0, 0, 0, 0.24), 0 0 6px 0 rgba(0, 0, 0, 0.12)
         top: 0
 
       .logo
@@ -101,8 +119,14 @@
         width: 50px
 
       .btn-navigation
+        padding-right: 66px
+
+        a
+          color: #fd7d57
+          border-bottom: none
+
         .feedback-on
-          display: none
+          display: none !important
 
     .section1
       padding-top: 104px
@@ -129,6 +153,10 @@
               text-align: left
               margin: 0
               padding: 0
+
+    .section2
+      .table-container-btn
+        padding: 0
 
     .section3
       .right
@@ -159,7 +187,8 @@
         background-color: transparent
         line-height: 20px
         white-space: normal
-        color: #b99379
+        color: #fd7d57
+        background-image: none
 
         &:before
           content: url("../images/play-grey.svg")
@@ -190,6 +219,12 @@
           top: inherit
           bottom: 0
 
+        .fotorama__arr--next
+          right: 80px
+
+        .fotorama__arr--prev
+          left: 80px
+
         .fotorama__stage
           position: relative
           height: 380px !important
@@ -200,10 +235,10 @@
 
       .slide-text
         margin-top: 50px
-        height: 68px
+        //height: 68px
 
       .slide-text-small
-        height: 60px
+        //height: 60px
 
     .section6
       &-list
@@ -221,6 +256,9 @@
 
       &-right
         width: 100%
+
+    .section8-list
+      margin-top: 0
 
     .section9
       &-list
@@ -291,7 +329,7 @@
 
     .section13
       .svg-mobile
-        width: 100%
+        margin: 0 -15px
         padding: 30px 0 0 0
 
         img
@@ -323,7 +361,7 @@
           .btn
             display: block
 
-  .modal-feedback
+  .modal-feedback, .modal-view-all-elements
     width: 100%
 
     .close-feedback
@@ -387,3 +425,16 @@
 
       .hamburger-menu
         right: 15px
+
+  .modal-view-all-elements
+    .modal-form
+      padding: 0 20px
+
+      .modal-view-all-elements__list
+        li
+          span
+            width: 78%
+
+.modal-feedback
+  .modal-form
+    padding: 15px
